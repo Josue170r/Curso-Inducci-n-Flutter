@@ -12,13 +12,13 @@ void main() {
   print("Lista: ${ reverseNumbers.toList() }");
   print("Set:  ${  reverseNumbers.toSet() }");
   
-//   for(i = 0; i < numeros.length; i++) {
-//     print(numeros[i]);
-//   }
+  for(i = 0; i < numeros.length; i++) {
+    print(numeros[i]);
+  }
  
-//   for (var item in numeros){
-//     print(item);
-//   }
+  for (var item in numeros){
+    print(item);
+  }
   
   numeros.forEach( (item) => print(item) );
 }
